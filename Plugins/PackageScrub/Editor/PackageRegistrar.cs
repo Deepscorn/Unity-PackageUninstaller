@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 #define DEBUG_PACKAGE_REGISTRAR
 using System;
 using System.Collections.Generic;
@@ -303,3 +304,4 @@ namespace PluginScrub
         }
     }
 }
+#endif
